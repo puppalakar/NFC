@@ -1,0 +1,72 @@
+# AI Training Plan: 20-Day Step-by-Step Guide for Beginners
+
+This plan is designed specifically for someone with little to no technical background. We will take it one step at a time, moving from basic computer instructions to building a real AI-powered project.
+
+---
+
+## Week 1: Speaking the Computer's Language (Python Basics)
+*Goal: Learn the basic vocabulary to give instructions to a computer.*
+
+- **Day 1: Setting up your Workspace**
+  - Download and install Python and a code editor (like PyCharm or VS Code).
+  - Write your very first program to make the computer say "Hello World!".
+- **Day 2: Storing Information (Variables & Data Types)**
+  - Learn how the computer stores text (strings) and numbers (integers).
+  - Practice creating "boxes" (variables) to hold information.
+- **Day 3: Making Choices (Logic & If-Statements)**
+  - Teach the computer how to make decisions using `if` and `else`.
+  - Example: "If it's raining, bring an umbrella, else wear sunglasses."
+- **Day 4: Doing Things Repeatedly (Loops)**
+  - Use `for` and `while` loops to make the computer do repetitive tasks instantly without complaining.
+- **Day 5: Organizing Code (Functions)**
+  - Group lines of code together into a "Function" so you can reuse it easily.
+  - **Mini-Project:** Build a simple text-based calculator.
+
+---
+
+## Week 2: Playing with Data
+*Goal: AI needs data to work. Learn how to open, view, and organize data.*
+
+- **Day 6: Reading Data (Introduction to Pandas)**
+  - What is a dataset? Learn to use a tool called "Pandas" to open a CSV file (which is just like an Excel spreadsheet) inside Python.
+- **Day 7: Exploring the Data**
+  - Practice viewing the data, filtering out what you don't need, and sorting it.
+- **Day 8: Cleaning Up Messy Data**
+  - Real-world data is messy. Learn how to handle missing information or fix broken text.
+- **Day 9: Drawing Pictures with Data (Visualization)**
+  - Use Python to draw simple bar charts and line graphs to see trends.
+- **Day 10: Mini-Project: Data Detective**
+  - Load a real-world dataset (like weather patterns or movie ratings) and create a chart showing an interesting trend.
+
+---
+
+## Week 3: What is AI? (Concepts and Connecting to AI Brains)
+*Goal: Understand how modern AI works and connect your code to it.*
+
+- **Day 11: The Magic Behind AI**
+  - A simple, plain-English explanation of how "Machine Learning" works (finding patterns) vs. what "Generative AI" is (creating new things).
+- **Day 12: How ChatGPT/Gemini Works**
+  - Understand "Large Language Models" (LLMs). They are basically incredibly advanced autocomplete machines.
+- **Day 13: Prompt Engineering**
+  - Learn the art of talking to AI. How to ask the right questions to get exactly what you want.
+- **Day 14: Connecting Python to AI (Using APIs)**
+  - An "API" is like a waiter at a restaurant. Learn how to use Python to send an order (a prompt) to the AI, and have the waiter bring back the food (the answer).
+- **Day 15: Mini-Project: Your Own Chatbot**
+  - Write a Python script where you can type a question, and it talks to the AI over the internet to give you an answer.
+
+---
+
+## Week 4: The Final Project - Building an AI Research Agent
+*Goal: Put everything together into a useful, automated tool.*
+
+- **Day 16: Teaching the Computer to Google**
+  - Write code that automatically searches the web for a topic you give it.
+- **Day 17: Reading Websites (Web Scraping)**
+  - Teach the computer to open a webpage link and extract only the useful text (ignoring the ads and menus).
+- **Day 18: Bringing in the AI**
+  - Have your program take the text it just scraped, hand it to the AI, and say: "Please read this and write a 3-paragraph summary."
+- **Day 19: The User Interface**
+  - Create a simple, friendly menu so anyone can start the program, type what they want to research, and hit enter.
+- **Day 20: Final Polish and Celebration!**
+  - Test the entire workflow. Fix any small bugs.
+  - Celebrate! You have built a fully autonomous "AI Research Agent" from scratch.
