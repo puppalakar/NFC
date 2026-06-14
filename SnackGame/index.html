@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Neon Snack Game</title>
+    <meta name="description" content="A classic snake game with a modern neon aesthetic. Eat snacks to grow!">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;600;800&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="game-container">
+        <div class="glass-panel">
+            <div class="header">
+                <h1>NEON SNACK</h1>
+                <div class="score-board">
+                    <div class="score-label">SCORE</div>
+                    <div id="score" class="score-value">0</div>
+                </div>
+                <div class="score-board">
+                    <div class="score-label">HIGH SCORE</div>
+                    <div id="high-score" class="score-value">0</div>
+                </div>
+            </div>
+            
+            <div class="canvas-wrapper">
+                <canvas id="gameCanvas" width="400" height="400"></canvas>
+                <div id="game-overlay" class="game-overlay visible">
+                    <h2 id="overlay-title">READY?</h2>
+                    <p id="overlay-text">Press Space to Start</p>
+                    <button id="start-btn" class="neon-btn">PLAY</button>
+                </div>
+            </div>
+
+            <div class="controls-hint">
+                <p>Use <span>Arrow Keys</span> to move. Press <span>Space</span> to pause/restart.</p>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
