@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tic-Tac-Toe 2-Player Game</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div class="game-container">
+    <header>
+      <h1>TIC-TAC-TOE</h1>
+      <div id="status" class="status-turn x-turn">Player X's Turn</div>
+    </header>
+
+    <div class="scoreboard">
+      <div class="score-card player-x">
+        <span class="label">PLAYER X</span>
+        <span id="score-x" class="val">0</span>
+      </div>
+      <div class="score-card ties">
+        <span class="label">TIES</span>
+        <span id="score-ties" class="val">0</span>
+      </div>
+      <div class="score-card player-o">
+        <span class="label">PLAYER O</span>
+        <span id="score-o" class="val">0</span>
+      </div>
+    </div>
+
+    <div class="board" id="board">
+      <button class="cell" data-index="0" id="cell-0"></button>
+      <button class="cell" data-index="1" id="cell-1"></button>
+      <button class="cell" data-index="2" id="cell-2"></button>
+      <button class="cell" data-index="3" id="cell-3"></button>
+      <button class="cell" data-index="4" id="cell-4"></button>
+      <button class="cell" data-index="5" id="cell-5"></button>
+      <button class="cell" data-index="6" id="cell-6"></button>
+      <button class="cell" data-index="7" id="cell-7"></button>
+      <button class="cell" data-index="8" id="cell-8"></button>
+    </div>
+
+    <div class="controls">
+      <button id="btn-next" class="btn btn-primary">Next Round</button>
+      <button id="btn-reset" class="btn btn-secondary">Reset Game</button>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
